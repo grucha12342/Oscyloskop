@@ -1,0 +1,60 @@
+.button {
+    -fx-background-radius: 50em;
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size: 10px;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+.button:focus {
+	-fx-background-color: linear-gradient(#d86c3a, #d1977d)
+}
+
+.root {
+	-fx-background-image: url("oscyloskop.jpg");
+	-fx-background-position: center center;
+	-fx-background-repeat: stretch;
+	-fx-background-size: 1000, 600;
+}
+
+.slider .track {
+	-fx-background-image: url("skoda.jpg");
+	-fx-background-position: center center;
+	-fx-background-repeat: stretch;
+	-fx-background-size: stretch;
+	-fx-padding: 15;
+}
+
+.slider .thumb {
+	-fx-background-color: white;
+	-fx-pref-height: 5;
+    -fx-pref-width: 20;
+}
+
+.toggle-button {
+	    -fx-background-radius: 50em;
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size: 10px;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.toggle-button:selected {
+	-fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
